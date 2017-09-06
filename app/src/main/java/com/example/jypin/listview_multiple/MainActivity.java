@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             String sel=parent.getItemAtPosition(position).toString();
             if (lstPrefer.isItemChecked(position)){
-                setTitle("目前選取"+sel);
+                setTitle("目前選取 "+sel);
             }else
-                setTitle("取消選取"+sel);
+                setTitle("取消選取 "+sel);
         }
     };
 }
