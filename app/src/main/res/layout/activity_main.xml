@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ListView android:id="@+id/lstPrefer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccccc"/>
+
+    <Button android:id="@+id/btnDo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstPrefer"
+        android:text="執行"
+        android:textColor="#0000ff"
+        android:textSize="24sp"/>
+
+    <TextView android:id="@+id/txtResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDo"
+        android:text="顯示訊息"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+</RelativeLayout>
